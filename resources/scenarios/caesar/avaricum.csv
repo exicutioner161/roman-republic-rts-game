@@ -1,0 +1,37 @@
+name,Siege of Avaricum
+historical_battle,Siege of Avaricum - 52 BC
+map,/resources/maps/caesar/avaricum.csv
+battlefield_type,siege_assault
+historical_notes,Compressed Avaricum siege: Caesar's siege terrace and towers press the single dry western approach while the Bituriges garrison relies on walls marsh and river defenses.
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,192,1104,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,336,1104,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,480,960,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,624,960,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,768,960,3200,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,912,960,3200,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,1056,912,3200,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,1152,912,3200,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,288,1008,2500,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,864,864,2500,4
+ROMAN,ROMAN_ARCHER,1,672,912,1200,3
+ROMAN,ROMAN_CAVALRY,1,144,864,1200,3
+GALLIC,GALLIC_INFANTRY,1,1200,528,5000,3
+GALLIC,GALLIC_INFANTRY,1,1344,528,5000,3
+GALLIC,GALLIC_INFANTRY,1,1488,528,5000,3
+GALLIC,GALLIC_INFANTRY,1,1248,672,5000,3
+GALLIC,GALLIC_INFANTRY,1,1392,672,5000,3
+GALLIC,GALLIC_INFANTRY,1,1536,672,5000,3
+GALLIC,GALLIC_INFANTRY,1,1344,432,5000,3
+GALLIC,GALLIC_ARCHER,1,1296,480,1500,2
+GALLIC,GALLIC_ARCHER,1,1488,480,1500,2
+GALLIC,GALLIC_INFANTRY,1,1392,576,2000,3
+starting_food
+culture,food
+ROMAN,2600
+GALLIC,9800
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,methodical_assault,advance the siege terrace methodically and commit the legions through the single dry approach,breach the oppidum before supply shortages force the siege to end
+GALLIC,gallic_assault,fortified_defense,hold the headland walls and punish any Roman unit caught in the marsh fringed approach,delay the assault and deny Caesar a quick capture of Avaricum

@@ -1,0 +1,28 @@
+{
+  "name": "Roman Republic Sample Engagement",
+  "historical_battle": "Battle of Alesia",
+  "camera_view": "birdseye",
+  "map": "resources/maps/sample_map.csv",
+  "battlefield_type": "historical",
+  "forces": [
+    {"culture": "ROMAN", "type": "ROMAN_HEAVY_INFANTRY", "count": 1, "x": 100, "y": 100, "size": 5000},
+    {"culture": "ROMAN", "type": "ROMAN_SPEARMAN", "count": 1, "x": 180, "y": 130, "size": 2000},
+    {"culture": "ROMAN", "type": "ROMAN_ARCHER", "count": 1, "x": 240, "y": 160, "size": 1000},
+    {"culture": "GALLIC", "type": "GALLIC_INFANTRY", "count": 1, "x": 400, "y": 200, "size": 5000},
+    {"culture": "GALLIC", "type": "GALLIC_CAVALRY", "count": 1, "x": 470, "y": 240, "size": 2000}
+  ],
+  "ai_directives": {
+    "ROMAN": {
+      "doctrine": "roman_disciplined",
+      "behavior": "defensive",
+      "historical_style": "maintain a disciplined line and commit reserves deliberately",
+      "historical_goal": "fix the front and defeat isolated attacks in sequence"
+    },
+    "GALLIC": {
+      "doctrine": "gallic_assault",
+      "behavior": "aggressive",
+      "historical_style": "attempt encirclement and rapid pressure",
+      "historical_goal": "recreate the relief-force pressure seen around Alesia"
+    }
+  }
+}

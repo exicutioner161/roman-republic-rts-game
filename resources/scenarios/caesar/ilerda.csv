@@ -1,0 +1,25 @@
+name,Ilerda Campaign
+historical_battle,Ilerda Campaign - 49 BC
+map,/resources/maps/caesar/ilerda.csv
+battlefield_type,river_valley
+historical_notes,"Compressed Ilerda campaign: Caesar faced Afranius and Petreius near the Sicoris and Cinga rivers using engineering and maneuvers to restore supplies and force surrender rather than seeking a decisive slaughter."
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,576,576,3000,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,672,528,3000,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,768,576,3000,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,512,672,2000,3
+ROMAN,ROMAN_CAVALRY,1,864,624,1500,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1008,480,3200,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1104,528,3200,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1200,480,3200,4
+POMPEIAN,ROMAN_LIGHT_INFANTRY,1,1056,672,2200,3
+POMPEIAN,ROMAN_CAVALRY,1,1296,576,2200,4
+starting_food
+culture,food
+ROMAN,3600
+POMPEIAN,5200
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,methodical_assault,seize crossings and high ground without wasting veterans in a frontal assault,cut off the Pompeian army and compel surrender
+POMPEIAN,roman_disciplined,defensive,hold the river approaches and protect the retreat routes toward Celtiberia,avoid encirclement while Caesar's supply crisis worsens

@@ -1,0 +1,32 @@
+name,Battle of Zela
+historical_battle,Zela - 47 BC
+map,/resources/maps/caesar/zela.csv
+battlefield_type,decisive_field_battle
+historical_notes,"Battle near Zela in Pontus: Pharnaces II tried to overrun Caesar's camp from high ground but veteran Roman counterattacks broke the Pontic army; Caesar later summarized the rapid campaign as ""Veni, vidi, vici."""
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,480,480,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,560,480,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,640,480,3200,5
+ROMAN,ROMAN_LIGHT_INFANTRY,1,400,544,2200,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,720,544,2200,4
+ROMAN,ROMAN_ARCHER,1,560,416,1200,3
+ROMAN,ROMAN_CAVALRY,1,320,480,1600,4
+ROMAN,ROMAN_CAVALRY,1,800,480,1600,4
+PARTHIAN,PARTHIAN_INFANTRY,1,1120,480,3500,4
+PARTHIAN,PARTHIAN_INFANTRY,1,1200,480,3500,4
+PARTHIAN,PARTHIAN_INFANTRY,1,1280,480,3500,4
+PARTHIAN,PARTHIAN_INFANTRY,1,1040,544,2400,3
+PARTHIAN,PARTHIAN_INFANTRY,1,1360,544,2400,3
+PARTHIAN,PARTHIAN_ARCHER,1,1120,416,1400,3
+PARTHIAN,PARTHIAN_ARCHER,1,1280,416,1400,3
+PARTHIAN,PARTHIAN_CAVALRY,1,1008,608,1800,3
+PARTHIAN,PARTHIAN_CAVALRY,1,1392,608,1800,3
+starting_food
+culture,food
+ROMAN,8000
+PARTHIAN,10000
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,aggressive,absorb Pharnaces' sudden uphill assault and counterattack with veteran legions,break the Pontic attack quickly and secure Caesar's eastern campaign
+PARTHIAN,parthian_skirmish,aggressive,launch Pharnaces' uphill assault from the Pontic camp and rely on mobile missile troops,overrun Caesar's line before the veterans can regroup

@@ -1,0 +1,32 @@
+name,Alexandrian War
+historical_battle,Alexandrian War - 48-47 BC
+map,/resources/maps/caesar/alexandria.csv
+battlefield_type,urban_coastal
+historical_notes,Compressed Alexandrian War: Caesar held the palace and harbor district with a small veteran force while Ptolemaic troops loyal to Ptolemy XIII fought through the city until relief arrived from Syria and Judaea.
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,480,480,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,560,480,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,640,480,3200,5
+ROMAN,ROMAN_LIGHT_INFANTRY,1,400,544,2200,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,720,544,2200,4
+ROMAN,ROMAN_ARCHER,1,560,416,1200,3
+ROMAN,ROMAN_CAVALRY,1,320,480,1600,4
+ROMAN,ROMAN_CAVALRY,1,800,480,1600,4
+EGYPTIAN,EGYPTIAN_INFANTRY,1,1120,480,3500,4
+EGYPTIAN,EGYPTIAN_INFANTRY,1,1200,480,3500,4
+EGYPTIAN,EGYPTIAN_INFANTRY,1,1280,480,3500,4
+EGYPTIAN,EGYPTIAN_INFANTRY,1,1040,544,2400,3
+EGYPTIAN,EGYPTIAN_INFANTRY,1,1360,544,2400,3
+EGYPTIAN,EGYPTIAN_ARCHER,1,1120,416,1400,3
+EGYPTIAN,EGYPTIAN_ARCHER,1,1280,416,1400,3
+EGYPTIAN,EGYPTIAN_CAVALRY,1,1008,608,2000,3
+EGYPTIAN,EGYPTIAN_CAVALRY,1,1392,608,2000,3
+starting_food
+culture,food
+ROMAN,8000
+EGYPTIAN,12000
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,defensive,hold the palace quarter harbor installations and causeways until eastern relief can arrive,preserve Caesar's foothold and Cleopatra's claim
+EGYPTIAN,egyptian_balanced,aggressive,use numbers city streets and harbor pressure to isolate Caesar's detachments,drive the Romans out of Alexandria and restore Ptolemaic control

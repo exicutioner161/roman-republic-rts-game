@@ -1,0 +1,34 @@
+name,Battle of Gergovia
+historical_battle,Battle of Gergovia - 52 BC
+map,/resources/maps/caesar/gergovia.csv
+battlefield_type,hill_fort_assault
+historical_notes,Compressed Gergovia assault: Caesar's legions attack below Vercingetorix's plateau stronghold where steep approaches and confused overextension turn the Roman climb into a defeat.
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,432,1296,3300,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,624,1296,3300,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,816,1248,3300,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,576,960,3300,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,672,960,3300,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,768,768,3300,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,480,1152,5000,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,864,1056,5000,4
+ROMAN,ROMAN_ARCHER,1,720,1104,1200,3
+ROMAN,ROMAN_CAVALRY,1,384,1056,1000,3
+ROMAN,ROMAN_CAVALRY,1,960,1152,1000,3
+GALLIC,GALLIC_INFANTRY,1,960,384,5000,3
+GALLIC,GALLIC_INFANTRY,1,1152,384,5000,3
+GALLIC,GALLIC_INFANTRY,1,1344,384,5000,3
+GALLIC,GALLIC_INFANTRY,1,1536,384,5000,3
+GALLIC,GALLIC_INFANTRY,1,960,576,3000,3
+GALLIC,GALLIC_INFANTRY,1,1440,576,3000,3
+GALLIC,GALLIC_ARCHER,1,1248,336,1000,2
+GALLIC,GALLIC_CAVALRY,1,1632,624,3000,3
+starting_food
+culture,food
+ROMAN,5400
+GALLIC,7600
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,narrow_assault,secure the forward hill and keep the assault coordinated on the ascent,take the plateau edge before Vercingetorix can mass defenders
+GALLIC,gallic_assault,high_ground_defense,use the escarpment camps and plateau lip to splinter the Roman climb,hold Gergovia and turn the overextended assault into a rout

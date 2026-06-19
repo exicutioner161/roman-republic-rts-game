@@ -1,0 +1,37 @@
+name,Battle of Munda
+historical_battle,Munda - 45 BC
+map,/resources/maps/caesar/munda.csv
+battlefield_type,decisive_field_battle
+historical_notes,Compressed Munda: Caesar attacks the fortified high ground of Gnaeus Pompeius and Labienus in southern Hispania in the hard fought final battle of the civil war.
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,480,640,3500,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,560,640,3500,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,640,640,3500,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,720,640,3500,5
+ROMAN,ROMAN_LIGHT_INFANTRY,1,400,704,2500,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,800,704,2500,4
+ROMAN,ROMAN_ARCHER,1,560,576,1200,3
+ROMAN,ROMAN_ARCHER,1,640,576,1200,3
+ROMAN,ROMAN_CAVALRY,1,320,640,1800,4
+ROMAN,ROMAN_CAVALRY,1,880,640,1800,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1120,640,3800,5
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1200,640,3800,5
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1280,640,3800,5
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1360,640,3800,5
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1440,640,3800,5
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1520,640,3800,5
+POMPEIAN,ROMAN_LIGHT_INFANTRY,1,1040,704,2800,4
+POMPEIAN,ROMAN_LIGHT_INFANTRY,1,1600,704,2800,4
+POMPEIAN,ROMAN_ARCHER,1,1120,576,1400,3
+POMPEIAN,ROMAN_ARCHER,1,1440,576,1400,3
+POMPEIAN,ROMAN_CAVALRY,1,1008,768,2200,4
+POMPEIAN,ROMAN_CAVALRY,1,1632,768,2200,4
+starting_food
+culture,food
+ROMAN,12000
+POMPEIAN,18000
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,aggressive,drive veteran legions uphill against the Pompeian line and exploit any wavering sector,end the civil war by breaking Gnaeus Pompeius' army
+POMPEIAN,roman_disciplined,fortified_defense,hold the ridge and fortified camp while Labienus' cavalry threatens Caesar's flank,repel Caesar and preserve the Pompeian cause in Hispania

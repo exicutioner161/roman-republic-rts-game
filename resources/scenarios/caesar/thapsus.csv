@@ -1,0 +1,36 @@
+name,Battle of Thapsus
+historical_battle,Thapsus - 46 BC
+map,/resources/maps/caesar/thapsus.csv
+battlefield_type,coastal_field_battle
+historical_notes,Compressed Thapsus: Caesar faces Scipio's Optimate army and Juba's Numidian support near the coast with the enemy elephant line represented by heavy chariot proxy units.
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,480,480,3400,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,560,480,3400,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,640,480,3400,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,720,480,3400,5
+ROMAN,ROMAN_LIGHT_INFANTRY,1,400,544,2400,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,800,544,2400,4
+ROMAN,ROMAN_ARCHER,1,560,416,1400,3
+ROMAN,ROMAN_ARCHER,1,640,416,1400,3
+ROMAN,ROMAN_CAVALRY,1,320,480,1800,4
+ROMAN,ROMAN_CAVALRY,1,880,480,1800,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1120,480,3500,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1200,480,3500,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1280,480,3500,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1360,480,3500,4
+POMPEIAN,ROMAN_LIGHT_INFANTRY,1,1040,544,2500,3
+POMPEIAN,ROMAN_LIGHT_INFANTRY,1,1440,544,2500,3
+POMPEIAN,ROMAN_ARCHER,1,1120,416,1500,3
+POMPEIAN,ROMAN_ARCHER,1,1360,416,1500,3
+POMPEIAN,ROMAN_CAVALRY,1,1008,608,2000,3
+POMPEIAN,EGYPTIAN_CHARIOT,1,1472,608,2000,3
+POMPEIAN,EGYPTIAN_CHARIOT,1,1240,672,2000,3
+starting_food
+culture,food
+ROMAN,10000
+POMPEIAN,12000
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,aggressive,use veteran infantry and missiles to panic the elephant line before striking Scipio's legions,destroy the African Optimate army at the coast
+POMPEIAN,roman_disciplined,aggressive,send the elephant line and Numidian cavalry forward while the legions hold behind them,disrupt Caesar's front before the veterans close

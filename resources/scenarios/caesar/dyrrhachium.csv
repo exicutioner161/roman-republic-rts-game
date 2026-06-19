@@ -1,0 +1,36 @@
+name,Siege Lines at Dyrrhachium
+historical_battle,Dyrrhachium - 48 BC
+map,/resources/maps/caesar/dyrrhachium.csv
+battlefield_type,fortified_breakout
+historical_notes,Compressed Dyrrhachium siege lines: Caesar's blockade works are stretched around Pompey's coastal camp; Pompey's better-supplied army exploits a weak sector and turns Caesar's failed counterattack into a Roman defeat.
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,432,1056,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,576,1056,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,720,1008,3200,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,864,1008,3200,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,528,1152,2200,3
+ROMAN,ROMAN_LIGHT_INFANTRY,1,672,1152,2200,3
+ROMAN,ROMAN_ARCHER,1,816,1104,1200,2
+ROMAN,ROMAN_ARCHER,1,960,1056,1200,2
+ROMAN,ROMAN_CAVALRY,1,384,1152,1600,3
+ROMAN,ROMAN_CAVALRY,1,1008,1200,1600,3
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1200,624,3400,5
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1344,624,3400,5
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1488,624,3400,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1632,624,3400,4
+POMPEIAN,ROMAN_HEAVY_INFANTRY,1,1296,768,3400,4
+POMPEIAN,ROMAN_LIGHT_INFANTRY,1,1440,768,2200,3
+POMPEIAN,ROMAN_LIGHT_INFANTRY,1,1584,768,2200,3
+POMPEIAN,ROMAN_ARCHER,1,1248,528,1200,2
+POMPEIAN,ROMAN_ARCHER,1,1536,528,1200,2
+POMPEIAN,ROMAN_CAVALRY,1,1392,912,2000,4
+POMPEIAN,ROMAN_CAVALRY,1,1680,864,2000,4
+starting_food
+culture,food
+ROMAN,3600
+POMPEIAN,9200
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,sector_defense,hold the overextended contravallation and contain any Pompeian breakout long enough to withdraw in order,prevent the breach from becoming a rout
+POMPEIAN,roman_disciplined,relief_assault,concentrate on the weak southern sector and drive through Caesar's siege works with superior numbers,break the blockade and force Caesar away from Dyrrhachium

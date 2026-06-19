@@ -1,0 +1,29 @@
+name,Landing in Kent
+historical_battle,Caesar's Landing in Kent - 55 BC
+map,/resources/maps/caesar/kent_landing.csv
+battlefield_type,beachhead_assault
+historical_notes,Compressed Kent landing: Caesar's infantry wade ashore under Briton missile and chariot harassment while the Roman cavalry transports are delayed offshore.
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,432,816,2800,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,576,768,2800,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,720,720,2800,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,528,912,2200,3
+ROMAN,ROMAN_LIGHT_INFANTRY,1,672,864,2200,3
+ROMAN,ROMAN_ARCHER,1,480,720,1200,2
+ROMAN,ROMAN_LIGHT_INFANTRY,1,768,960,1200,3
+BRITON,GALLIC_INFANTRY,1,960,480,3000,3
+BRITON,GALLIC_INFANTRY,1,1104,432,3000,3
+BRITON,GALLIC_INFANTRY,1,1248,480,3000,3
+BRITON,GALLIC_INFANTRY,1,1392,528,2500,2
+BRITON,GALLIC_INFANTRY,1,1200,624,2500,2
+BRITON,GALLIC_ARCHER,1,1056,336,1000,2
+BRITON,GALLIC_CAVALRY,1,1440,624,1500,3
+starting_food
+culture,food
+ROMAN,3600
+BRITON,4600
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,narrow_assault,form a shielded beachhead from the boats despite the missing cavalry support,secure enough shore to unload the army
+BRITON,gallic_assault,skirmish,harass the surf line with chariots cavalry and missiles before the cohorts can form,throw the Romans back into the sea

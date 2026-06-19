@@ -1,0 +1,31 @@
+name,Thames Crossing
+historical_battle,Thames Crossing - 54 BC
+map,/resources/maps/caesar/thames_crossing.csv
+battlefield_type,river_crossing
+historical_notes,Compressed Thames crossing: Caesar forces Cassivellaunus' defended ford against bank obstacles and stakes hidden in the riverbed while Briton warriors guard the north bank.
+forces
+culture,type,count,x,y,size,experience
+ROMAN,ROMAN_HEAVY_INFANTRY,1,480,960,3200,5
+ROMAN,ROMAN_HEAVY_INFANTRY,1,624,912,3200,4
+ROMAN,ROMAN_HEAVY_INFANTRY,1,768,960,3200,4
+ROMAN,ROMAN_LIGHT_INFANTRY,1,576,1104,2200,3
+ROMAN,ROMAN_LIGHT_INFANTRY,1,720,1104,2200,3
+ROMAN,ROMAN_ARCHER,1,864,960,1200,2
+ROMAN,ROMAN_ARCHER,1,432,912,1200,2
+ROMAN,ROMAN_CAVALRY,1,960,1056,1600,3
+BRITON,GALLIC_INFANTRY,1,720,336,3200,3
+BRITON,GALLIC_INFANTRY,1,864,288,3200,3
+BRITON,GALLIC_INFANTRY,1,1008,336,3200,3
+BRITON,GALLIC_INFANTRY,1,1152,288,3200,3
+BRITON,GALLIC_INFANTRY,1,1296,336,2800,2
+BRITON,GALLIC_ARCHER,1,960,192,1200,2
+BRITON,GALLIC_ARCHER,1,1200,192,1200,2
+BRITON,GALLIC_CAVALRY,1,1344,432,1800,3
+starting_food
+culture,food
+ROMAN,5600
+BRITON,4800
+ai_directives
+culture,doctrine,behavior,historical_style,historical_goal
+ROMAN,roman_disciplined,narrow_assault,force the ford with a tight shielded advance and clear the north bank,open the crossing before the Britons can collapse onto the ford
+BRITON,gallic_assault,fortified_defense,hold the bank and stake line while mobile bands strike the Roman flanks,bleed the crossing until Caesar abandons the ford
